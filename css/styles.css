@@ -39,7 +39,7 @@ figure {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #ececec;
-  height: 80px;
+  /* height: 80px; */
 }
 .top-wrapper {
   display: flex;
@@ -76,7 +76,7 @@ figure {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  /* margin-block: 32px; do usunięcia*/
+  margin-block: 32px;
   /* margin-left: 0; do usunięcia*/
   margin-right: 371px;
   gap: 46px;
@@ -119,12 +119,19 @@ figure {
 }
 .heading {
   background-color: var(--dark-background-color);
-  height: 600px;
+  /* height: 600px; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* margin-bottom: 94px; */
+}
+.heading-wrapper {
+  padding-block: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 94px;
 }
 .heading-title,
 .heading-button {
@@ -159,7 +166,7 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .lorem-wrapper {
   list-style-type: none;
@@ -191,7 +198,7 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .wedo-wrapper {
   display: flex;
@@ -199,9 +206,9 @@ figure {
   justify-content: center;
   align-items: space-between;
 }
-.wedo-heading {
+/* .wedo-heading {
   margin-bottom: 50px;
-}
+} */
 .wedo-list {
   list-style-type: none;
   display: flex;
@@ -214,7 +221,7 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 648px;
+  /* height: 648px; */
 }
 .team-wrapper {
   display: flex;
@@ -255,10 +262,11 @@ figure {
 }
 .foot {
   background-color: var(--dark-background-color);
-  height: 252px;
+  /* height: 252px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-block: 60px;
 }
 .contact-wrapper {
   font-style: inherit;
@@ -363,4 +371,7 @@ figure {
 }
 .container {
   width: 1200px;
+}
+.section {
+  padding-block: 94px;
 }
