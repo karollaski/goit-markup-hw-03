@@ -20,9 +20,7 @@ figure {
   margin: 0;
   padding: 0;
 }
-address {
-  font-style: inherit;
-}
+
 :root {
   --brand-color: #2196f3;
   --main-text-color: #212121;
@@ -262,6 +260,9 @@ address {
   justify-content: center;
   align-items: center;
 }
+.contact-wrapper {
+  font-style: inherit;
+}
 .contact-foot {
   list-style-type: none;
   padding: 0;
@@ -277,9 +278,27 @@ address {
 .contact-foot-link {
   color: rgba(255, 255, 255, 0.6);
 }
+.subpages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filtr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
 .filtr-list {
   list-style-type: none;
+  width: 47.7%;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
+
 .filtr-button {
   font-family: inherit;
   color: inherit;
@@ -288,20 +307,53 @@ address {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  height: 36px;
+  padding: 0;
+}
+.filtr-list-items:nth-child(1) > .filtr-button {
+  width: 121px;
+}
+.filtr-list-items:nth-child(2) > .filtr-button {
+  width: 93px;
+}
+.filtr-list-items:nth-child(3) > .filtr-button {
+  width: 114px;
+}
+.filtr-list-items:nth-child(4) > .filtr-button {
+  width: 91px;
+}
+.filtr-list-items:nth-child(5) > .filtr-button {
+  width: 121px;
 }
 .filtr-button:hover,
 .filtr-button:active {
   color: var(--contrast-color);
   background-color: var(--brand-color);
 }
+.projects {
+  margin-bottom: 94px;
+}
 .projects-list {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.projects-list-items {
+  flex-basis: calc((100%- (2 * 30px) / 3));
+}
+.project-description {
+  margin-block: 20px;
+  margin-left: 24px;
 }
 .project-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .project-group {
   color: var(--second-text-color);
