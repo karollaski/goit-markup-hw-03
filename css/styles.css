@@ -158,9 +158,14 @@ figure {
   text-align: center;
   letter-spacing: 0.06em;
   align-items: center;
-  width: 200px;
-  height: 50px;
+  /* width: 200px;
+  height: 50px; */
   border: none;
+}
+.heading-button-description {
+  padding-block: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
 }
 .lorem {
   display: flex;
@@ -290,18 +295,20 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-block: 94px;
 }
 .filtr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 34px;
 }
 .filtr-list {
   list-style-type: none;
   width: 47.7%;
-  height: 54px;
+  /* height: 54px; */
+  padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -316,10 +323,14 @@ figure {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
-  height: 36px;
+  /* height: 36px; */
   padding: 0;
 }
-.filtr-list-items:nth-child(1) > .filtr-button {
+.filtr-button-description {
+  padding-block: 6px;
+  padding-inline: 22px;
+}
+/* .filtr-list-items:nth-child(1) > .filtr-button {
   width: 121px;
 }
 .filtr-list-items:nth-child(2) > .filtr-button {
@@ -333,15 +344,15 @@ figure {
 }
 .filtr-list-items:nth-child(5) > .filtr-button {
   width: 121px;
-}
+} */
 .filtr-button:hover,
 .filtr-button:active {
   color: var(--contrast-color);
   background-color: var(--brand-color);
 }
-.projects {
+/* .projects {
   margin-bottom: 94px;
-}
+} */
 .projects-list {
   list-style-type: none;
   display: flex;
@@ -351,6 +362,7 @@ figure {
 }
 .projects-list-items {
   flex-basis: calc((100%- (2 * 30px) / 3));
+  border-bottom: 1px solid #ececec;
 }
 .project-description {
   margin-block: 20px;
