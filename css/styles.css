@@ -6,7 +6,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
-  width: 1600px;
 }
 a {
   text-decoration: none;
@@ -147,6 +146,7 @@ figure {
   border: none;
 }
 .heading-button-description {
+  display: block;
   padding-block: 10px;
   padding-left: 42px;
   padding-right: 41px;
@@ -301,6 +301,7 @@ figure {
   padding: 0;
 }
 .filtr-button-description {
+  display: block;
   padding-block: 6px;
   padding-inline: 22px;
 }
