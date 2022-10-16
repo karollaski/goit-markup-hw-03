@@ -112,7 +112,8 @@ figure {
   background-color: var(--dark-background-color);
 }
 .heading-wrapper {
-  padding-block: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +149,8 @@ figure {
 }
 .heading-button-description {
   display: block;
-  padding-block: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 42px;
   padding-right: 41px;
 }
@@ -249,7 +251,8 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-block: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .contact-wrapper {
   font-style: inherit;
@@ -273,7 +276,6 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-block: 94px;
 }
 .filtr {
   display: flex;
@@ -303,7 +305,8 @@ figure {
 }
 .filtr-button-description {
   display: block;
-  padding-block: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   padding-inline: 22px;
 }
 .filtr-button:hover,
@@ -339,9 +342,7 @@ figure {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-.container {
-  width: 1200px;
-}
 .section {
-  padding-block: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
